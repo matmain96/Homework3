@@ -9,20 +9,11 @@ Il terzo homework del corso di Laboratorio Ciberfisico (AA 2017/2018) presso l'u
 
 ## Contenuto
 
-ORB_SLAM2_edit contiene una versione modificata di ORB_SLAM2 in modo che possa eseguire il salvataggio della mappa. Il codice per il salvataggio della mappa è descritto nel seguente [link](https://medium.com/@j.zijlmans/orb-slam-2052515bd84c).
-
-Va precisato che per il corretto funzionamento del codice vanno commentate due righe in quanto causavano un blocco nell'esecuzione del programma. Le righe sono le seguenti.
-
-```
-    //if(mpViewer)
-        //pangolin::BindToContext("ORB-SLAM2: Map Viewer");
-```
+ORB_SLAM2 contiene una versione modificata dell'originale ORB_SLAM2 in modo che possa eseguire il salvataggio della mappa. Il codice per il salvataggio della mappa è descritto nel seguente [link](https://medium.com/@j.zijlmans/orb-slam-2052515bd84c).
 
 La cartella Cluster contiene la risoluzione del punto 4, che permette la clusterizzazione del file .pcd ottenuto dal punto tre. Il programma originale è fornito sul sito del laboratorio ciberfisico, è stata apportata qualche lieve modifica di valori.
 
 All'interno della repository sono presenti anche i risultati delle 4 parti della consegna.
-
-
 
 ## Compilazione & run
 
