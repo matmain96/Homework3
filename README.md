@@ -48,3 +48,4 @@ Screen del primo file pcd prodotto dal punto 3
 ![alt text](images/first_pcl.png)
 
 di seguito alla clusterizzazione. 
+![alt text](images/cluster.png)
