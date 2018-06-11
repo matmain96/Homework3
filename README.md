@@ -18,7 +18,7 @@ Va precisato che per il corretto funzionamento del codice vanno commentate due r
         //pangolin::BindToContext("ORB-SLAM2: Map Viewer");
 ```
 
-La cartella Cluster contiene la risoluzione del punto 4, che permette la clusterizzazione del file .pcd ottenuto dal punto tre. Il programma originale può essere ottenuto in questo [link](http://www.pointclouds.org/documentation/tutorials/cluster_extraction.php).
+La cartella Cluster contiene la risoluzione del punto 4, che permette la clusterizzazione del file .pcd ottenuto dal punto tre. Il programma originale è fornito sul sito del laboratorio ciberfisico, è stata apportata qualche lieve modifica di valori.
 
 All'interno della repository sono presenti anche i risultati delle 4 parti della consegna.
 
@@ -46,26 +46,14 @@ Successivamente è possibile osservare il risultato ottenuto tramite
  pcl_viewer pointcloud.pcd 
 ```
 
-Una volta ottenuto il file .pcd bisogna spostarlo nella cartella Cluster/build/ ed eseguire il programma cluster_extraction associato alla distanza desisderata
+Una volta ottenuto il file .pcd bisogna spostarlo nella cartella Cluster/bin/ ed eseguire il programma Cluster.
+
 ```
- ./cluster_extraction pointcloud.pcd 0.26
+ ./Cluster pointcloud.pcd 
 ```
 
-L'esecuzione del programma creerà i file Cloud_point, visibili con la seguente riga di comando. 
-```
-pcl_viewer cloud_point_*
-```
 ## Immagini
 Screen del primo file pcd prodotto dal punto 3
 ![alt text](images/first_pcl.png)
 
-di seguito diverse clusterizzazione a diversi valori.
-
-0.20
-![alt text](images/0_20.png )
-0.26
-![alt text](images/0_26.png )
-0.28
-![alt text](images/0_28.png )
-0.40
-![alt text](images/0_40.png )
+di seguito alla clusterizzazione. 
